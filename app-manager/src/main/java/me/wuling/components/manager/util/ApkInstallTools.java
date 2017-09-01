@@ -1,4 +1,4 @@
-package me.wuling.components.manager.receiver;
+package me.wuling.components.manager.util;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
@@ -24,7 +24,8 @@ public class ApkInstallTools {
 
     private static void installApk(Context context, File apkFile) {
         if (apkFile.exists()) {
-            AppUtils.installApp(apkFile, "com.wuling.app.manager.provider");
+            ;
+            AppUtils.installApp(apkFile, context.getPackageName() + ".update.provider");
         } else {
             setDownloadId(context, 0);
         }

@@ -21,7 +21,7 @@ import java.util.Map;
 import me.wuling.components.manager.AppManager;
 import me.wuling.components.manager.model.AppManagerFileModel;
 import me.wuling.components.manager.model.AppManagerUpgradeModel;
-import me.wuling.components.manager.receiver.ApkInstallTools;
+import me.wuling.components.manager.util.ApkInstallTools;
 import me.wuling.components.manager.util.AppManagerLog;
 import me.wuling.components.manager.util.AppManagerRequest;
 import me.wuling.components.manager.util.FileUtils;
